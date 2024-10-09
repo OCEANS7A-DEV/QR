@@ -50,7 +50,7 @@ export default function TopBanner({ setCurrentPage }: SettingProps) {
         <a className="buttonUnderline" id="main_back" type="button" onClick={() => clickpage('HQPage')}>
           納品書作成
         </a>
-        <a className="buttonUnderline" id="main_back" type="button" onClick={handleQRClick}>
+        <a className="buttonUnderline" id="main_back" type="button" onClick={() => clickpage('QR')}>
           QR
         </a>
         <div>{scannedData}</div>
