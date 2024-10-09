@@ -59,6 +59,7 @@ export default function App() {
         <div ref={nodeRef} className="page">
           {getPageComponent(currentPage)}
         </div>
+        <div>{isMobile}</div>
       </CSSTransition>
     </TransitionGroup>
   );
